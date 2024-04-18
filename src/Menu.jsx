@@ -3,7 +3,7 @@
 import { useState } from "react";
 import bars from "./Icons/bars.svg";
 import close from "./Icons/close.svg";
-import sertaomultimarcaslogo from "./Fotos/sertaomultimarcaslogo.png";
+import Estoque from "./Conferir/Estoque";
 
 const Menu = () => {
   const [isClick, setIsclick] = useState(false);
@@ -30,7 +30,7 @@ const Menu = () => {
                   Inicio
                 </a>
                 <a
-                  href="Conferir/Estoque"
+                  href="/Estoque"
                   className="text-white hover:bg-white hover:text-orange-700 rounded-lg p-2">
                   Estoque
                 </a>

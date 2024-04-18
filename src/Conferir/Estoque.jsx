@@ -5,7 +5,7 @@ export const Estoque = () => {
   return (
     <>
       <Menu />
-      <div>
+      <div className="bg-lime-500">
         <h1>ESTOQUE</h1>
       </div>
       <Footer />

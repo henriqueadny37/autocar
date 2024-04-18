@@ -2,8 +2,8 @@
 import Link from "next/link";
 import amarok from "./Fotos/SecaoCarros/amarok.png";
 import fiattoro from "./Fotos/SecaoCarros/fiattoro.png";
-import undraw from "./Fotos/undraw.png";
 import carsertao from "./Fotos/carsertao.gif";
+import celdraw from "./Undraw/celdraw.svg";
 
 const Section = () => {
   return (
@@ -43,7 +43,7 @@ const Section = () => {
           <div className="px-5 my-10 mx-28 sm:mx-0 sm:flex sm:justify-center sm:items-center text-center sm:gap-4">
             <div className="bg-orange-500 text-white hover:bg-black hover:text-orange-500 md:hover:bg-white md:hover:text-orange-500 rounded-md p-2 w-32 cursor-pointer">
               <button>
-                <Link href="conferir/Estoque">Estoque</Link>
+                <Link href="/Conferir/Estoque">Estoque</Link>
               </button>
             </div>
             <div className="bg-orange-500 text-white hover:bg-black hover:text-orange-500 md:hover:bg-white md:hover:text-orange-500 rounded-md p-2 w-32 my-3 cursor-pointer">
@@ -56,16 +56,15 @@ const Section = () => {
         {/*FIM DA DIV BOTÕES ACIMA*/}
         <div className="bg-amber-200">
           <div className="max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex-1 justify-center items-center text-center">
-              <h1 className="font-semibold my-32 text-3xl text-black p-3">
-                PORQUE NÓS?
-              </h1>
+            <div className="flex items-center text-center">
               <div className="max-4-xl mx-auto grid grid-cols-1 justify-center items-center">
-                <img
-                  src={carsertao.src}
-                  alt=""
-                  className="w-32 h-32 lg:w-52 lg:h-52"
-                />
+                <img src={celdraw.src} alt="" className="m-3" />
+              </div>
+              <div className="text-black text-3xl font-base sm:font-semibold">
+                <p>
+                  Somos a melhor loja com maiores vendas realizada no ultimo
+                  ano!
+                </p>
               </div>
             </div>
           </div>
