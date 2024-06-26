@@ -1,8 +1,8 @@
-export const Usuario = () => {
+const Usuario = () => {
   return (
     <>
       <div>
-        <h1>faça agoar seu cadastro!</h1>
+        <h1>faça agora seu cadastro!</h1>
       </div>
     </>
   );

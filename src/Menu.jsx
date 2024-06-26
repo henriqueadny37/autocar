@@ -74,7 +74,7 @@ const Menu = () => {
                 Inicio
               </a>
               <a
-                href="#"
+                href="User/Usuario"
                 className="text-white hover:text-orange-700 rounded-lg p-2 block">
                 Estoque
               </a>

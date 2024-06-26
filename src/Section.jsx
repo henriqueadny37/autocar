@@ -10,7 +10,7 @@ const Section = () => {
     <>
       <section>
         <div className="grid py-16 justify-center items-center text-3xl font-semibold">
-          <p className="text-center xl:text-6xl">A PARTIR DE 1,5% AO MES</p>
+          <p className="text-center xl:text-6xl">A PARTIR DE 1,5% AO MÊS</p>
           <p className="sm:text-base xl:text-md text-center p-2">
             taxa de financiamento de veículos
           </p>
@@ -38,9 +38,9 @@ const Section = () => {
           </div>
         </div>
         {/*DIV DO FINANCIAMENTO E BOTÕES ABAIXO */}
-        <div className="max-w-7xl mx-auto items-center justify-around text-center font-semibold">
+        <div className="m-auto items-center justify-around text-center font-semibold">
           <p className="text-3xl">CONFIRA</p>
-          <div className="px-5 my-10 mx-28 sm:mx-0 sm:flex sm:justify-center sm:items-center text-center sm:gap-4">
+          <div className=" m-auto px-5 my-10 mx-28 sm:mx-0 sm:flex sm:justify-center sm:items-center text-center sm:gap-4">
             <div className="bg-orange-500 text-white hover:bg-black hover:text-orange-500 md:hover:bg-white md:hover:text-orange-500 rounded-md p-2 w-32 cursor-pointer">
               <button>
                 <Link href="/Conferir/Estoque">Estoque</Link>
